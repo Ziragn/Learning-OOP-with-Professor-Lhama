@@ -31,3 +31,8 @@ cat.miar()
 
 
 # OBS: OS OBJETOS DAS CLASSES FILHAS, CONSEGUEM ACESSAR OS MÉTODOS DA CLASSE MÃE, MAS O CONTRÁRIO NÃO É POSSÍVEL.
+#Diferença principal:
+
+# Composição: A classe tem um objeto de outra classe como atributo e precisa chamar explicitamente os métodos dessa classe.
+
+# Herança: A classe filha herda diretamente os métodos e atributos públicos da classe mãe, podendo usá-los sem a necessidade de instanciá-los.
