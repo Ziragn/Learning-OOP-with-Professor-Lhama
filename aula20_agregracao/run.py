@@ -8,6 +8,7 @@ class Produto:
         print(f'Essas sao as informações Nome:{self.__nome} Valor:{self.__valor}')
 
 class CarrinhoDeCompras:
+    
     def __init__(self):
         self.__produtos = []
     
@@ -23,6 +24,7 @@ class CarrinhoDeCompras:
 banana = Produto('banana', 3)
 pera = Produto('pera', 2)
 uva = Produto('uva', 4)
+
 
 carrinho = CarrinhoDeCompras()
 carrinho.adicionar_produtos(banana)

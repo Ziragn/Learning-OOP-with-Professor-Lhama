@@ -14,6 +14,9 @@ class Principal:
         print('Estou finalizando na classe principal')
 
 el = Elemento2()
+al = Elemento()
 
 cl1 = Principal(el)
 cl1.run()
+cl2 = Principal(al)
+cl2.run()

@@ -15,7 +15,7 @@ class Celular:
         print(f'Abrindo o youtube')
 
 class Pessoa:
-    def __init__(self, celular:Celular): #Aqui tem uma relação de dependencia, pq entra diretamente no atributo, a classe pessoa precisa da definição de uma classe celular
+    def __init__(self, celular:Celular): #Aqui tem uma relação de dependencia, pq entra diretamente no atributo, a classe pessoa precisa da definição de um objeto da classe celular
         self.__celular = celular #dependencias devem ser tratadas como codigos privados
 
     def pedir_pizza(self):

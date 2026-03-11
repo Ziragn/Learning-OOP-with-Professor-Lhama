@@ -1,8 +1,9 @@
 # compor uma classe, através de outras classes.
 
 class Select:
-    def by_id(self) -> any:
-        print('Selecionando um elemento no BD')
+    def by_id(self, id) -> any:
+        self.id = id
+        print(f'Selecionando um elemento no BD {self.id}')
 
 class Insert:
     def inser_value(self) -> None:
@@ -14,7 +15,8 @@ class Repositorio:
         self.__insert = Insert()
 
     def select_by_id(self, id: int) -> any:
-        self.__select.by_id()
+        self.__select.by_id(id)
+        
 
 repo = Repositorio()
 repo.select_by_id(45)

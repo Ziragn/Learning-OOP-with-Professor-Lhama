@@ -7,3 +7,5 @@ class SistemaCadastral:
         else:
             print('Dados invalidos')
 
+a1 = SistemaCadastral()
+a1.cadastrar(15, 36)

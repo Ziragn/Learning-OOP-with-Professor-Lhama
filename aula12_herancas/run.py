@@ -30,6 +30,7 @@ cat = Gato('Noruega')
 cat.miar()
 
 
+
 # OBS: OS OBJETOS DAS CLASSES FILHAS, CONSEGUEM ACESSAR OS MÉTODOS DA CLASSE MÃE, MAS O CONTRÁRIO NÃO É POSSÍVEL.
 #Diferença principal:
 
